@@ -1,17 +1,3 @@
-# 📘 RAPPORT DE PROJET - Application E-Commerce JEE
-
-## 📋 Informations Générales
-
-| Élément | Description |
-|---------|-------------|
-| **Titre du projet** | Application E-Commerce avec JEE |
-| **Technologie principale** | Jakarta EE 10 (JEE) |
-| **Framework de persistance** | JPA avec EclipseLink |
-| **Gestion des dépendances** | CDI (Contexts and Dependency Injection) |
-| **Base de données** | MySQL 8.0+ |
-| **Serveur d'application** | WildFly 27+ |
-| **Architecture** | Architecture en couches (MVC) |
-| **Version** | 1.0-SNAPSHOT |
 
 ---
 <img width="1913" height="973" alt="Capture d’écran 2025-10-19 215802" src="https://github.com/user-attachments/assets/1220f1d1-55d6-43fe-8d86-d8c994a55e80" /><img width="1918" height="841" alt="Capture d’écran 2025-10-19 220003" src="https://github.com/user-attachments/assets/9beab68e-2555-4051-aa98-63c0306f566b" />
@@ -35,6 +21,21 @@ Développer une application web e-commerce complète permettant aux utilisateurs
 7. ✅ Créer une interface utilisateur responsive avec Bootstrap 5
 
 ---
+# 📘 RAPPORT DE PROJET - Application E-Commerce JEE
+
+## 📋 Informations Générales
+
+| Élément | Description |
+|---------|-------------|
+| **Titre du projet** | Application E-Commerce avec JEE |
+| **Technologie principale** | Jakarta EE 10 (JEE) |
+| **Framework de persistance** | JPA avec EclipseLink |
+| **Gestion des dépendances** | CDI (Contexts and Dependency Injection) |
+| **Base de données** | MySQL 8.0+ |
+| **Serveur d'application** | WildFly 27+ |
+| **Architecture** | Architecture en couches (MVC) |
+| **Version** | 1.0-SNAPSHOT |
+
 
 ## 🏗️ Architecture du Projet
 
