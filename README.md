@@ -14,6 +14,11 @@
 | **Version** | 1.0-SNAPSHOT |
 
 ---
+<img width="1913" height="973" alt="Capture d’écran 2025-10-19 215802" src="https://github.com/user-attachments/assets/1220f1d1-55d6-43fe-8d86-d8c994a55e80" /><img width="1918" height="841" alt="Capture d’écran 2025-10-19 220003" src="https://github.com/user-attachments/assets/9beab68e-2555-4051-aa98-63c0306f566b" />
+<img width="1917" height="966" alt="Capture d’écran 2025-10-19 215943" src="https://github.com/user-attachments/assets/c6679f7f-bd96-432c-9f86-364790869179" />
+<img width="1915" height="970" alt="Capture d’écran 2025-10-19 215903" src="https://github.com/user-attachments/assets/3a0574b7-e258-4098-a1f1-ce132c543ca6" />
+<img width="1918" height="967" alt="image" src="https://github.com/user-attachments/assets/5631bf29-0ffa-480f-82e3-56c720746942" />
+
 
 ## 🎯 Objectifs du Projet
 
