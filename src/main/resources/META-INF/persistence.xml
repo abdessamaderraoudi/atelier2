@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence xmlns="https://jakarta.ee/xml/ns/persistence"
+             xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+             xsi:schemaLocation="https://jakarta.ee/xml/ns/persistence
+                                 https://jakarta.ee/xml/ns/persistence/persistence_3_0.xsd"
+             version="3.0">
+
+    <!-- Nom du persistence-unit -->
+    <persistence-unit name="EcommercePU" transaction-type="RESOURCE_LOCAL">
+
+        <!-- Fournisseur JPA -->
+        <provider>org.eclipse.persistence.jpa.PersistenceProvider</provider>
+
+        <!-- Entités -->
+        <class>ma.fstt.atelier2.model.Internaute</class>
+        <class>ma.fstt.atelier2.model.Produit</class>
+        <class>ma.fstt.atelier2.model.Panier</class>
+        <class>ma.fstt.atelier2.model.LignePanier</class>
+
+
+        <!-- Configuration de la base -->
+        <properties>
+
+            <!-- 🔌 Connexion à MySQL -->
+            <property name="jakarta.persistence.jdbc.driver" value="com.mysql.cj.jdbc.Driver"/>
+            <property name="jakarta.persistence.jdbc.url" value="jdbc:mysql://localhost:3306/ecommerce_db?createDatabaseIfNotExist=true&amp;useSSL=false&amp;allowPublicKeyRetrieval=true"/>
+            <property name="jakarta.persistence.jdbc.user" value="root"/>
+            <property name="jakarta.persistence.jdbc.password" value=""/>
+
+            <!-- 🧱 Génération du schéma -->
+            <property name="eclipselink.ddl-generation" value="create-or-extend-tables"/>
+
+            <!-- options : none | create | drop-and-create | update -->
+
+            <!-- 🧾 Script SQL optionnel -->
+            <!-- <property name="jakarta.persistence.sql-load-script-source" value="META-INF/import.sql"/> -->
+
+            <!-- 🧠 Configuration EclipseLink -->
+            <property name="eclipselink.logging.level" value="FINE"/>
+            <property name="eclipselink.logging.parameters" value="true"/>
+            <property name="eclipselink.ddl-generation.output-mode" value="database"/>
+
+        </properties>
+    </persistence-unit>
+</persistence>
